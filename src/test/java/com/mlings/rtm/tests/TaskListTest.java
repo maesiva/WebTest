@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.maheshlingsugur.rtm.tests;
+package com.mlings.rtm.tests;
 
-import com.maheshlingsugur.rtm.common.BaseTest;
-import com.maheshlingsugur.rtm.pages.LoginPage;
-import com.maheshlingsugur.rtm.pages.MainPage;
+import com.mlings.rtm.common.BaseTest;
+import com.mlings.rtm.pages.LoginPage;
+import com.mlings.rtm.pages.MainPage;
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
 

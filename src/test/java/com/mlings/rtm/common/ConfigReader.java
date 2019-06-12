@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.maheshlingsugur.rtm.common;
+package com.mlings.rtm.common;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -21,7 +21,7 @@ public class ConfigReader {
 
     public static final Logger LOGGER = Logger.getLogger(ConfigReader.class.getName());
 
-    private static final String CONFIG_FILE_PATH = System.getProperty("user.dir") + "/src/test/resources/RmtTest.properties";
+    private static final String CONFIG_FILE_PATH = System.getProperty("user.dir") + "/src/test/resources/WebTest.properties";
     private static ConfigReader instance;
     private static Map<String, String> confMap;
 

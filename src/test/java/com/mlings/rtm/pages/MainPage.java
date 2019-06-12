@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.maheshlingsugur.rtm.pages;
+package com.mlings.rtm.pages;
 
-import com.maheshlingsugur.rtm.common.Helper;
-import com.maheshlingsugur.rtm.common.Utils;
+import com.mlings.rtm.common.Helper;
+import com.mlings.rtm.common.Utils;
 import java.util.List;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Keys;
@@ -111,7 +111,7 @@ public class MainPage {
     public void addTaskLists(int n) {
         LOGGER.info("addTaskLists Start..");
         for (int i = 1; i <= n; i++) {
-            String curTaskListName = TaskListName + "-" + TestUtils.getRandomString(2, true, true);
+            String curTaskListName = TaskListName + "-" + TestUtils.getRandomString(4, true, true);
             AppTest.click(plusBtnList.get(1));
             AppTest.setField(listNameTxtField, curTaskListName);
             AppTest.click(addTaskListBtn);

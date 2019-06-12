@@ -1,19 +1,19 @@
 # Introduction
-**RTMTestSuite**: Page Object Model based Selenium Test Framework and Test Suite for **Remember The Milk** web app
+**WebTest**: Page Object Model based Selenium Test Framework and Test Suite for **Remember The Milk** web app
 
 # Project Structure  
 Implements below Components:  
-1. **Test Configureation file**   
+1. **Test Configuration file**   
 Path: **\src\test\resources\RmtTest.properties**   
 2. **POM Pages**  
-Path: **\src\test\java\com\pingidentity\rtm\pages**  
+Path: **\src\test\java\com\mlings\rtm\pages**  
 3. **Tests**  
-Path: **\src\test\java\com\pingidentity\rtm\tests**  
+Path: **\src\test\java\com\mlings\rtm\tests**  
 4. **Common functions and Utilities**  
-Path: **\src\test\java\com\pingidentity\rtm\common**  
+Path: **\src\test\java\com\mlings\rtm\common**  
 
 # Adding Tests  
-Create Page and Test classes and implement the verification methoids inside Page class as needed  
+Create Page and Test classes and implement the verification methods inside Page class as needed  
 
 # Execution  
 1. **IDE**  

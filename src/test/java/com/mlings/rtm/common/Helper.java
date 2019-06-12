@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.maheshlingsugur.rtm.common;
+package com.mlings.rtm.common;
 
 import java.util.Arrays;
 import java.util.List;
