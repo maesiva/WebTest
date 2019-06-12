@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mlings.rtm.common;
+package com.mlings.common;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import java.time.Instant;

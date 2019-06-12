@@ -5,7 +5,7 @@
  */
 package com.mlings.rtm.tests;
 
-import com.mlings.rtm.common.BaseTest;
+import com.mlings.common.BaseTest;
 import com.mlings.rtm.pages.LoginPage;
 import com.mlings.rtm.pages.MainPage;
 import org.apache.log4j.Logger;

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mlings.rtm.common;
+package com.mlings.common;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -59,7 +59,8 @@ public class ConfigReader {
             fileInputStream = new FileInputStream(CONFIG_FILE_PATH);
             conf.load(fileInputStream);
         } catch (IOException ex) {
-            LOGGER.log(Level.FATAL, "File Not found", ex);
+            LOGGER.log(Level.FATAL, "Abort due to configuration file not found: " + CONFIG_FILE_PATH, ex);
+            System.exit(1);
         }
 
         conf.stringPropertyNames().forEach((String key) -> {

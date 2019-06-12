@@ -5,8 +5,8 @@
  */
 package com.mlings.rtm.pages;
 
-import com.mlings.rtm.common.Helper;
-import com.mlings.rtm.common.Utils;
+import com.mlings.common.Helper;
+import com.mlings.common.Utils;
 import java.util.List;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Keys;
